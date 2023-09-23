@@ -1,0 +1,91 @@
+.home__content {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-xxlarge);
+  flex-wrap: wrap-reverse;
+  padding-top: var(--spacing-xxlarge);
+  align-items: center;
+}
+
+.home__data {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-medium);
+  position: relative;
+}
+
+.home__title {
+  font-size: var(--big-font-size);
+}
+
+.home__subtitle {
+  font-size: var(--h3-font-size);
+  font-weight: 400;
+  position: relative;
+  padding-left: 5.4rem;
+}
+
+.home__subtitle::before {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 1px;
+  background-color: white;
+  left: 0;
+  top: 1rem;
+}
+
+.home__description {
+  width: clamp(400px, 50vw, 600px);
+}
+
+.home__img {
+  background: url(../../assets/profil.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
+  order: 1;
+  justify-self: center;
+  width: 400px;
+  height: 400px;
+  animation: profile__animate 8s ease-in-out infinite 1s;
+}
+
+@keyframes profile__animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+/* =============== CTA ============== */
+.cta__container {
+  display: flex;
+  gap: var(--spacing-medium);
+  margin-top: var(--spacing-medium);
+  align-items: center;
+}
+
+/* =============== SOCIALS ============== */
+.home__socials {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-medium);
+  font-size: var(--h1-font-size);
+}
+
+.home__socials a {
+  color: var(--color-light);
+}
+
+.home__socials a:hover {
+  color: var(--color-white);
+}

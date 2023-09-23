@@ -1,0 +1,1 @@
+rafce = raccourci pour créer la base du composant
