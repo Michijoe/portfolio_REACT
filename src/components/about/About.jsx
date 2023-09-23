@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/apropos.jpeg'
+import ME from '../../assets/apropos.webp'
 import { FaAward } from 'react-icons/fa'
 import { IoMdSchool } from 'react-icons/io'
 import CV from '../../assets/cv.pdf'
