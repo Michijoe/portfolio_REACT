@@ -41,7 +41,7 @@ const Competences = () => {
                     </div>
                 </div>
                 <div className="competence__annexe">
-                    <h3>Annexes</h3>
+                    <h3>Annexe</h3>
                     <div className="competence__content">
                         <Detail icon={FaGitAlt} name='Git' level='Intermédiaire' />
                         <Detail icon={FaFigma} name='Figma' level='Débutant' />
