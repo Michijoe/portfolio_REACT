@@ -4,6 +4,7 @@ import ME from '../../assets/apropos.jpeg'
 import { FaAward } from 'react-icons/fa'
 import { IoMdSchool } from 'react-icons/io'
 import CV from '../../assets/cv.pdf'
+import { TbUserHeart } from 'react-icons/tb'
 
 
 const About = () => {
