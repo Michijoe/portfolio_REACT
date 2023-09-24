@@ -58,8 +58,8 @@ const Portfolio = () => {
                                     <span><strong>Languages :</strong> {languages}</span>
                                 </div>
                                 <div className="portfolio__item-cta">
-                                    <a href={github} target='_blank'><FiGithub /></a>
-                                    <a href={demo} target='_blank'><HiOutlineExternalLink /></a>
+                                    <a href={github} aria-label='Projet Github' target='_blank'><FiGithub /></a>
+                                    <a href={demo} aria-label='Projet demo' target='_blank'><HiOutlineExternalLink /></a>
                                 </div>
                             </article>
                         )

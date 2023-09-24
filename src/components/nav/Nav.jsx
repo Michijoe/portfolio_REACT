@@ -11,11 +11,11 @@ const Nav = () => {
     const [activeNav, setActiveNav] = useState("#");
     return (
         <nav>
-            <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><VscHome /></a>
-            <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><TbUserHeart /></a>
-            <a href="#competences" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BsDatabaseFillGear /></a>
-            <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><GoFileCode /></a>
-            <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><RiMailSendLine /></a>
+            <a href="#" aria-label='Home' onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><VscHome /></a>
+            <a href="#about" aria-label='About' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><TbUserHeart /></a>
+            <a href="#competences" aria-label='Competences' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BsDatabaseFillGear /></a>
+            <a href="#portfolio" aria-label='Portfolio' onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><GoFileCode /></a>
+            <a href="#contact" aria-label='Contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><RiMailSendLine /></a>
         </nav>
     )
 }
