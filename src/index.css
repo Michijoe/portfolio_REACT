@@ -139,6 +139,7 @@ section {
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
+    background-color: transparent;
     padding: var(--spacing-medium);
     border-radius: 2rem;
     cursor: pointer;
@@ -150,11 +151,6 @@ section {
     background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
-}
-  
-.btn-primary {
-    background: var(--color-primary);
-    color: var(--color-bg);
 }
   
 /* IMAGE */

@@ -26,12 +26,11 @@ const Contact = () => {
                         <a href="mailto:johanna.penet@gmail.com" target="_blank">Envoyer un message</a>
                     </article>
                 </div>
-                {/* END OF CONTACT OPTIONS */}
                 <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name='name' placeholder='Votre nom complet' required />
                     <input type="email" name='email' placeholder='Votre courriel' required />
                     <textarea name="message" rows="7" placeholder='Votre message' required ></textarea>
-                    <button type='submit' className='btn btn-primary'>Envoyer</button>
+                    <button type='submit' className='btn'>Envoyer</button>
                 </form>
             </div>
         </section>

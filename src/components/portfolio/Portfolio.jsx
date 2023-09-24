@@ -21,18 +21,20 @@ const data = [
         id: 2,
         image: IMG1,
         title: 'Projet à venir',
-        description: 'Projet à venir',
-        languages: 'Projet à venir',
-        github: 'https://github.com',
+        description: '',
+        tags: 'à venir',
+        languages: 'à venir',
+        github: '#',
         demo: '#'
     },
     {
         id: 3,
         image: IMG1,
         title: 'Projet à venir',
-        description: 'Projet à venir',
-        languages: 'Projet à venir',
-        github: 'https://github.com',
+        description: '',
+        tags: 'à venir',
+        languages: 'à venir',
+        github: '#',
         demo: '#'
     }
 ]
