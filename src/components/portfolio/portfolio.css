@@ -10,6 +10,9 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .portfolio__item:hover {
@@ -22,14 +25,27 @@
   overflow: hidden;
 }
 
-.portfolio__item h3 {
-  margin: 1.2rem 0 2rem;
+.portfolio__item-description {
+  color: var(--color-light);
+}
+
+.portfolio__item-description strong {
+  color: var(--color-primary);
+}
+
+.portfolio__item-description span {
+  display: block;
+}
+
+.portfolio__item-description span:first-of-type {
+  margin-top: 0.75rem;
 }
 
 .portfolio__item-cta {
+  font-size: 2rem;
   display: flex;
   gap: 1rem;
-  margin-bottom: 1rem;
+  justify-content: end;
   align-items: flex-end;
 }
 
