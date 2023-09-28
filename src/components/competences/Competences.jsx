@@ -1,7 +1,6 @@
 import React from 'react'
 import './competences.css'
 import Detail from './Detail'
-import { BsFillPatchCheckFill } from 'react-icons/bs'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { IoLogoCss3 } from 'react-icons/io'
 import { RiJavascriptFill } from 'react-icons/ri'
@@ -21,7 +20,7 @@ const Competences = () => {
         <section id='competences'>
             <h2>Mes compétences</h2>
             <div className="container competence__container">
-                <div className="competence__frontend">
+                <article className="competence__item">
                     <h3>Frontend</h3>
                     <div className="competence__content">
                         <Detail icon={AiFillHtml5} name='HTML' level='Avancé' />
@@ -30,8 +29,8 @@ const Competences = () => {
                         <Detail icon={FaReact} name='React' level='Intermédiaire' />
                         <Detail icon={BiLogoVuejs} name='Vue JS' level='Débutant' />
                     </div>
-                </div>
-                <div className="competence__backend">
+                </article>
+                <article className="competence__item">
                     <h3>Backend</h3>
                     <div className="competence__content">
                         <Detail icon={BiLogoPhp} name='PHP' level='Avancé' />
@@ -39,8 +38,8 @@ const Competences = () => {
                         <Detail icon={FaLaravel} name='Laravel' level='Intermédiaire' />
                         <Detail icon={FaNodeJs} name='Node JS' level='Intermédiaire' />
                     </div>
-                </div>
-                <div className="competence__annexe">
+                </article>
+                <article className="competence__item">
                     <h3>Annexe</h3>
                     <div className="competence__content">
                         <Detail icon={FaGitAlt} name='Git' level='Intermédiaire' />
@@ -48,7 +47,7 @@ const Competences = () => {
                         <Detail icon={PiArrowsCounterClockwiseDuotone} name='Agile' level='Intermédiaire' />
                         <Detail icon={MdPermMedia} name='Gestion médias' level='Avancé' />
                     </div>
-                </div>
+                </article>
             </div>
 
         </section>

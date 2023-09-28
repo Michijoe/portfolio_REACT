@@ -4,8 +4,6 @@ import ME from '../../assets/apropos.webp'
 import { FaAward } from 'react-icons/fa'
 import { IoMdSchool } from 'react-icons/io'
 import CV from '../../assets/cv.pdf'
-import { TbUserHeart } from 'react-icons/tb'
-
 
 const About = () => {
     return (
@@ -14,7 +12,7 @@ const About = () => {
             <div className="container about__container">
                 <div className="about__me">
                     <div className="about__me-image">
-                        <img src={ME} alt="Image section A propos" />
+                        <img src={ME} alt="Section A propos" />
                     </div>
                 </div>
                 <div className="about__content">

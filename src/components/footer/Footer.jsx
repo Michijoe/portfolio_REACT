@@ -5,10 +5,10 @@ import HomeSocials from '../home/HomeSocials'
 const Footer = () => {
     return (
         <footer>
-            <a href="#" className='footer__logo'>Johanna Pénet</a>
+            <a href="#home" className='footer__logo'>Johanna Pénet</a>
 
             <ul className='permalinks'>
-                <li><a href="#">Accueil</a></li>
+                <li><a href="#home">Accueil</a></li>
                 <li><a href="#about">À Propos</a></li>
                 <li><a href="#competences">Compétences</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
