@@ -32,7 +32,7 @@ const data = [
         id: 3,
         image: WebPortfolio,
         title: 'Portfolio',
-        description: "Création d'un portfolio personnel avec React pour présenter mon parcours et mes projets académiques et personnels. Application web monopage et responsive. Utilisation des librairies email-js et react-icons.",
+        description: "Création d'un portfolio personnel avec React pour présenter mon parcours et mes projets de conception et de développement web. Application web monopage et responsive. Utilisation des librairies email-js et react-icons.",
         tags: 'REACT, SPA, NPM',
         languages: 'JS',
         github: 'https://github.com/Michijoe/portfolio_REACT',
