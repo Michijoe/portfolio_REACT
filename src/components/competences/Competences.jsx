@@ -26,17 +26,17 @@ const Competences = () => {
                         <Detail icon={AiFillHtml5} name='HTML' level='Avancé' />
                         <Detail icon={IoLogoCss3} name='CSS' level='Avancé' />
                         <Detail icon={RiJavascriptFill} name='JS' level='Intermédiaire' />
-                        <Detail icon={FaReact} name='React' level='Intermédiaire' />
+                        <Detail icon={FaReact} name='React' level='Débutant' />
                         <Detail icon={BiLogoVuejs} name='Vue JS' level='Débutant' />
                     </div>
                 </article>
                 <article className="competence__item">
                     <h3>Backend</h3>
                     <div className="competence__content">
-                        <Detail icon={BiLogoPhp} name='PHP' level='Avancé' />
+                        <Detail icon={BiLogoPhp} name='PHP' level='Intermédiaire' />
                         <Detail icon={GrMysql} name='MySQL' level='Intermédiaire' />
                         <Detail icon={FaLaravel} name='Laravel' level='Intermédiaire' />
-                        <Detail icon={FaNodeJs} name='Node JS' level='Intermédiaire' />
+                        <Detail icon={FaNodeJs} name='Node JS' level='Débutant' />
                     </div>
                 </article>
                 <article className="competence__item">
