@@ -2,6 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import Stampee from '../../assets/portfolio-stampee.webp'
 import Cinema from '../../assets/portfolio-cinema.webp'
+import WebPortfolio from '../../assets/portfolio-portfolio.webp'
 import { FiGithub } from 'react-icons/fi'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 
@@ -29,13 +30,13 @@ const data = [
     },
     {
         id: 3,
-        image: '',
+        image: WebPortfolio,
         title: 'Portfolio',
-        description: '',
-        tags: 'à venir',
-        languages: 'à venir',
-        github: '#',
-        demo: '#'
+        description: "Création d'un portfolio personnel avec React pour présenter mon parcours et mes projets académiques et personnels. Application web monopage et responsive. Utilisation des librairies email-js et react-icons.",
+        tags: 'REACT, SPA, NPM',
+        languages: 'JS',
+        github: 'https://github.com/Michijoe/portfolio_REACT',
+        demo: 'https://johannapenet.com/'
     }
 ]
 const Portfolio = () => {
