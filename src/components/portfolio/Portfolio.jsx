@@ -1,8 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio.jpg'
-import Stampee from '../../assets/portfolio-stampee.png'
-import Cinema from '../../assets/portfolio-cinema.png'
+import Stampee from '../../assets/portfolio-stampee.webp'
+import Cinema from '../../assets/portfolio-cinema.webp'
 import { FiGithub } from 'react-icons/fi'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 
@@ -30,7 +29,7 @@ const data = [
     },
     {
         id: 3,
-        image: IMG1,
+        image: '',
         title: 'Portfolio',
         description: '',
         tags: 'à venir',
