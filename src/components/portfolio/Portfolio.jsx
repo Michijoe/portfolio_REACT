@@ -3,6 +3,7 @@ import './portfolio.css'
 import Stampee from '../../assets/portfolio-stampee.webp'
 import Cinema from '../../assets/portfolio-cinema.webp'
 import WebPortfolio from '../../assets/portfolio-portfolio.webp'
+import Network from '../../assets/portfolio-network.webp'
 import { FiGithub } from 'react-icons/fi'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 
@@ -40,7 +41,7 @@ const data = [
     },
     {
         id: 4,
-        image: WebPortfolio,
+        image: Network,
         title: 'College Network',
         description: "Plateforme de partage entre étudiants d'un Collège. Possibilité de se connecter à son compte, d'ajouter un utilisateur, de créer des articles et de partager des documents. Site multilingue anglais / français.",
         tags: 'Laravel, MySQL, Bootstrap',
