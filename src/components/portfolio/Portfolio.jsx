@@ -37,6 +37,16 @@ const data = [
         languages: 'JS',
         github: 'https://github.com/Michijoe/portfolio_REACT',
         demo: 'https://johannapenet.com/'
+    },
+    {
+        id: 4,
+        image: WebPortfolio,
+        title: 'College Network',
+        description: "Plateforme de partage entre étudiants d'un Collège. Possibilité de se connecter à son compte, d'ajouter un utilisateur, de créer des articles et de partager des documents. Site multilingue anglais / français.",
+        tags: 'Laravel, MySQL, Bootstrap',
+        languages: 'PHP',
+        github: 'https://github.com/Michijoe/s4_Laravel_CRUD',
+        demo: 'https://network.johannapenet.com/'
     }
 ]
 const Portfolio = () => {

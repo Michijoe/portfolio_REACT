@@ -1,12 +1,13 @@
 .portfolio__container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 1.5rem;
 }
 
 .portfolio__item {
-  flex: 1;
-  min-width: 300px;
+  flex-basis: 450px;
+  flex-grow: 1;
   background: var(--color-bg-variant);
   padding: 1.2rem;
   border-radius: 2rem;
@@ -54,4 +55,11 @@
   gap: 1rem;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+@media screen and (min-width: 1645px) {
+  .portfolio__item {
+    flex-basis: 650px;
+    flex-grow: 0;
+  }
 }
