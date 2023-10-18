@@ -1,7 +1,17 @@
 /* GOOGLE FONT */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-/* VARIABLES */
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
 :root {
     --header-height: 3rem;
 
@@ -53,16 +63,7 @@
     }
   }
 
-/* GENERAL */
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-}
+
 
 html {
     scroll-behavior: smooth;

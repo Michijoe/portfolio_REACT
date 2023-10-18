@@ -1,10 +1,12 @@
 .competence__container {
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(380px, 1fr) );
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
     gap: 1.5rem;
   }
   
   .competence__item {
+    flex: 1;
     background: var(--color-bg-variant);
     padding: 2rem 1.2rem;
     border-radius: 2rem;
@@ -40,4 +42,24 @@
     font-size: 2rem;
     margin-top: 6px;
     color: var(--color-primary);
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    .competence__item {
+      width: 80%;
+      padding: 2rem;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .competence__item {
+      width: 100%;
+      padding: 2rem 1rem;
+    }
+
+    .competence__content {
+      padding: 0;
+    }
   }
