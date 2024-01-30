@@ -18,7 +18,7 @@ const Footer = () => {
                 <HomeSocials />
             </div>
             <div className="footer__copyright">
-                <small>&copy;2023 Johanna Pénet | Tous droits réservés.</small>
+                <small>&copy;2024 Johanna Pénet | Tous droits réservés.</small>
             </div>
         </footer>
     )
