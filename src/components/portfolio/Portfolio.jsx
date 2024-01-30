@@ -44,7 +44,7 @@ const data = [
         id: 4,
         image: Evinetory,
         title: 'eVinetory',
-        description: "Application gestion de cave à vin mobile first. Création de compte et authentification, gestion de celliers, recherche et ajout de bouteilles de vin, création de listes d'achats et de favoris. Conception graphique et développement réalisé en équipe en méthode agile.",
+        description: "Application de gestion de celliers. Création de compte et authentification, création de celliers, recherche et ajout de bouteilles de vin, création de listes d'achats et de favoris. Conception graphique mobile first et développement réalisé en équipe en méthode agile.",
         tags: 'Laravel, MySQL',
         languages: 'PHP',
         github: 'https://github.com/vino22634/eVinetory',
