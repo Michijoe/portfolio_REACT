@@ -6,7 +6,7 @@
 }
 
 .portfolio__item {
-  flex-basis: 450px;
+  flex-basis: 350px;
   flex-grow: 1;
   background: var(--color-bg-variant);
   padding: 1.2rem;

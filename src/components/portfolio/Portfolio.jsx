@@ -4,6 +4,7 @@ import Stampee from '../../assets/portfolio-stampee.webp'
 import Cinema from '../../assets/portfolio-cinema.webp'
 import WebPortfolio from '../../assets/portfolio-portfolio.webp'
 import Network from '../../assets/portfolio-network.webp'
+import Evinetory from '../../assets/portfolio-evinetory.png'
 import { FiGithub } from 'react-icons/fi'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 
@@ -31,16 +32,6 @@ const data = [
     },
     {
         id: 3,
-        image: WebPortfolio,
-        title: 'Portfolio',
-        description: "Création d'un portfolio personnel avec React pour présenter mon parcours et mes projets de conception et de développement web. Application web monopage et responsive. Utilisation des librairies email-js et react-icons.",
-        tags: 'REACT, SPA, NPM',
-        languages: 'JS',
-        github: 'https://github.com/Michijoe/portfolio_REACT',
-        demo: 'https://johannapenet.com/'
-    },
-    {
-        id: 4,
         image: Network,
         title: 'College Network',
         description: "Plateforme de partage entre étudiants d'un Collège. Possibilité de se connecter à son compte, d'ajouter un utilisateur, de créer des articles et de partager des documents. Site multilingue anglais / français.",
@@ -48,6 +39,26 @@ const data = [
         languages: 'PHP',
         github: 'https://github.com/Michijoe/s4_Laravel_CRUD',
         demo: 'https://network.johannapenet.com/'
+    },
+    {
+        id: 4,
+        image: Evinetory,
+        title: 'eVinetory',
+        description: "Application gestion de cave à vin mobile first. Création de compte et authentification, gestion de celliers, recherche et ajout de bouteilles de vin, création de listes d'achats et de favoris. Conception graphique et développement réalisé en équipe en méthode agile.",
+        tags: 'Laravel, MySQL',
+        languages: 'PHP',
+        github: 'https://github.com/vino22634/eVinetory',
+        demo: 'https://evinetory-staging.johannapenet.com/'
+    },
+    {
+        id: 5,
+        image: WebPortfolio,
+        title: 'Portfolio',
+        description: "Création d'un portfolio personnel avec React pour présenter mon parcours et mes projets de conception et de développement web. Application web monopage et responsive. Utilisation des librairies email-js et react-icons.",
+        tags: 'REACT, SPA, NPM',
+        languages: 'JS',
+        github: 'https://github.com/Michijoe/portfolio_REACT',
+        demo: 'https://johannapenet.com/'
     }
 ]
 const Portfolio = () => {
